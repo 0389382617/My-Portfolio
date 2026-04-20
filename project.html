@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details - Luong Phat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Luong Phat</a>
+        <nav>
+            <a href="index.html#about-me">About Me</a>
+            <a href="index.html#education">Education</a>
+            <a href="index.html#experience">Work Experience</a>
+            <a href="index.html#project" class="active">Project</a>
+            <a href="index.html#certificate">Certificate</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="project-detail">
+        <a href="index.html#project" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+        <div class="project-detail-container" id="project-detail-content">
+            <!-- Content will be automatically inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="reference">
+            <p>&copy; 2026 Luong Phat. All Rights Reserved.</p>
+            <p>References: Project Documentations, Online Courses, and Open Source Libraries.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Dữ liệu chi tiết cho từng dự án
+        const projectData = {
+            'portfolio': {
+                title: 'The Emerging Tech Hub of Southeast Asia',
+                image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                description: `This project provides an overview of Southeast Asia’s rapid transformation into a dynamic technology hub. It highlights key developments in digital innovation, economic growth, and the increasing role of technology across the region.<br><br>The goal of this project is to deliver a clear and engaging perspective on how Southeast Asia is emerging as an important player in the global tech landscape.`,
+                databaseText: `The dataset used in this project was sourced from the World Bank Data360 platform, focusing on Vietnam’s digital development and economic prosperity indicators.
+
+Digital: <a href="https://data360.worldbank.org/en/economy/VNM?tab=Digital" target="_blank" style="color: var(--accent); text-decoration: underline;">https://data360.worldbank.org/en/economy/VNM?tab=Digital</a>
+Prosperity: <a href="https://data360.worldbank.org/en/economy/VNM?tab=Prosperity" target="_blank" style="color: var(--accent); text-decoration: underline;">https://data360.worldbank.org/en/economy/VNM?tab=Prosperity</a>
+
+The data was cleaned and transformed into a structured format for analysis. A central Fact Table was created, where indicators and their corresponding values were standardized into clear columns (Indicator, Value), enabling efficient analysis and visualization.`,
+                databaseImage: `./project image 1/fact table image.jpg`,
+                databaseImage1Caption: `Ảnh 1. Tạo fact table`,
+                databaseIntroTable: `To ensure a structured and objective analysis, this project adopts a set of key indicators from the GovTech Maturity framework and related economic metrics. These indicators are used to evaluate digital government development, technology adoption, and overall economic performance.
+
+The table below summarizes the definitions, calculation methods, and analytical significance of each indicator used in this study.`,
+                databaseText2: `Table 1. Objective Evaluation Platforms & Indicator System`,
+                databaseImage2: `./project image 1/Screenshot 2026-04-18 112320.png`,
+                analysisText: `<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem;"><i class="fas fa-thumbtack" style="margin-right: 0.8rem;"></i>Problem Statement 1: Is Vietnam Ready?</strong>`,
+                analysisImage: `./project image 1/Screenshot 2026-04-19 212049.png`,
+                analysisText2: `Digital readiness is a <strong>prerequisite</strong> for all technology FDI flows.
+According to the <strong>GovTech Maturity Index (GTMI)</strong>:<ul><li>Vietnam scored <strong>0.68</strong></li><li>Higher than the Southeast Asia average (<strong>0.63</strong>) and Global average (<strong>0.55</strong>)</li><li>Just behind the leading group like Singapore</li></ul>`,
+                analysisImage2: `./project image 1/Screenshot 2026-04-19 215506.png`,
+                analysisText3: `Delving into the ITU indicators, the data shows that Vietnam's digital penetration and capacity have reached a nationwide scale:<ul style="margin-bottom: 0.5rem;"><li>Mobile subscriptions: <strong>94.15</strong> / 100 people</li><li>Population coverage 3G: <strong>82.34%</strong></li><li>Global Cybersecurity Index: <strong>97.15</strong>, far exceeding the regional average (<strong>68.57</strong>) and global average (<strong>58.75</strong>)</li><li>Technical Score (TS): <strong>18.15</strong>, significantly higher than SEA (<strong>12.81</strong>) and Global (<strong>10.52</strong>)</li></ul>
+<strong style="font-size: 2.0rem;">==> Insight:</strong>
+This shows that Vietnam <strong>not only has sufficient technology</strong>, but is also <strong>ready to deploy and expand large-scale technology-based FDI models</strong>.
+When placed in the regional and global context, Vietnam is not yet a saturated market, but <strong>has surpassed the regional average and is catching up very quickly</strong>.
+
+This is precisely the stage that strategic investors often look for: <strong>a sufficiently solid foundation, while costs and growth potential remain significant</strong>.
+
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-top: 1.5rem;"><i class="fas fa-thumbtack" style="margin-right: 0.8rem;"></i>Problem Statement 2: EXPORT & FDI (Evidence of Investment Absorption Capacity)</strong>`,
+                analysisImage3: `./project image 1/Screenshot 2026-04-19 220947.png`,
+                analysisText4: `The data on Exports of goods & services (% GDP – average over time) shows:<ul style="margin-bottom: 0;"><li>Vietnam: approximately <strong>107% of GDP</strong></li><li>Malaysia: approximately <strong>114% of GDP</strong></li><li>Singapore: approximately <strong>179% of GDP</strong></li><li>Cambodia & Lao PDR: significantly lower (<strong>under 60%</strong>)</li></ul><strong>==></strong> This confirms that Vietnam is an <strong>export-driven economy</strong>, not dependent on domestic consumption, and has the capacity to participate deeply in the global value chain. More importantly, Vietnam's export share <strong>increases steadily over time</strong>, reflecting long-term production and service capabilities, not a short-term trend.`,
+                analysisImage4: `./project image 1/Screenshot 2026-04-19 222159.png`,
+                analysisText5: `In parallel, <strong>FDI net inflows (% GDP)</strong> show:<ul style="margin-bottom: 0;"><li>Singapore: <strong>14.7%</strong></li><li>Cambodia: <strong>6.0%</strong></li><li>Vietnam: <strong>4.7%</strong></li><li>Malaysia: <strong>3.7%</strong></li><li>Thailand: <strong>1.9%</strong></li></ul>
+<strong style="font-size: 2.0rem;">==> Insight:</strong>
+Vietnam is in the <strong>leading group of the region</strong>, and the key point is: <strong>FDI remains high while costs and average income are still low</strong>, creating room for long-term growth.
+The combination of high exports and stable FDI shows that Vietnam <strong>not only attracts capital, but also absorbs and expands investment effectively</strong>.`,
+                analysisText6: `<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-top: 1.5rem;"><i class="fas fa-thumbtack" style="margin-right: 0.8rem;"></i>Problem Statement 3: COST & HUMAN CAPITAL (Long-term Competitive Advantage)</strong>`,
+                analysisImage5: `./project image 1/Screenshot 2026-04-19 223935.png`,
+                analysisText7: `Vietnam's <strong>GDP per capita (PPP)</strong> is at approximately <strong>0.3 million</strong>, significantly lower than:<ul style="margin-bottom: 0;"><li>Singapore (<strong>~3.1 million</strong>)</li><li>Malaysia (<strong>~0.8 million</strong>)</li></ul><strong>==></strong> This provides a clear advantage in <strong>living and operating costs</strong> for investors. At the same time, this income level is still higher than less developed countries in the region, helping to ensure <strong>social stability and domestic purchasing power</strong>.`,
+                analysisImage6: `./project image 1/Screenshot 2026-04-19 224845.png`,
+                analysisText8: `The <strong>Employment to population ratio</strong> shows:<ul style="margin-bottom: 0;"><li>Cambodia: <strong>80%</strong></li><li>Vietnam: <strong>74%</strong></li><li>Thailand: <strong>71%</strong></li><li>Singapore: <strong>64%</strong></li><li>Malaysia: <strong>63%</strong></li></ul>
+<strong style="font-size: 2.0rem;">==> Insight:</strong>
+Vietnam possesses a <strong>young, large workforce</strong> with a <strong>high market participation rate</strong>, along with <strong>access to technology and quick learning capabilities</strong>. Compared to Singapore (high-quality workforce but very high cost) and Malaysia, Vietnam has a clear advantage in <strong>workforce scalability</strong>, making it particularly suitable for models such as:<ul style="margin-bottom: 0;"><li><strong>Technology outsourcing</strong></li><li><strong>Digital platforms</strong></li><li>Large-scale <strong>Product development</strong></li></ul>Vietnam does not compete on being "expensive and perfect," but on <strong>speed, scale, and cost-effectiveness</strong>.`,
+                conclusion: `Synthesizing data from the World Bank Group, key takeaways can be drawn:<ul style="margin-bottom: 0;"><li>Vietnam's <strong>digital foundation</strong> has reached a level of readiness to support technology FDI.</li><li><strong>Export of goods & services exceeding 100% of GDP</strong> proves the ability to translate investment into real value.</li><li><strong>Stable FDI</strong> reflects the long-term confidence of international investors.</li><li><strong>Competitive living costs and human resources</strong> create room for medium- to long-term expansion.</li></ul><strong>🎯 Final Message:</strong>
+Vietnam is not just an alternative destination, but is gradually establishing its role as a <strong>new technology hub in Southeast Asia</strong>, with the capacity to scale and compete on the global investment map.`
+            },
+            'catdog': {
+                title: 'Classify cat dog',
+                image: './assets/image/img2.jpg',
+                description: `An AI model that classifies images of cats and dogs using convolutional neural networks (CNNs). Implemented with Python and TensorFlow, achieving high accuracy on test datasets.`,
+                databaseText: `[Text and details explaining the dataset used for training...]`,
+                analysisText: `[Text about the data analysis...]`,
+                analysisImage: null,
+                conclusion: `[Final Conclusion of the project...]`
+            },
+            'object-detection': {
+                title: 'Object detection',
+                image: './assets/image/img3.jpg',
+                description: `An object detection application that identifies and locates objects within images and videos. Utilizes pre-trained models like YOLO or SSD, built with Python and OpenCV.`,
+                databaseText: `[Text explaining the image/video database or live feed data...]`,
+                analysisText: `[Text about the data analysis...]`,
+                analysisImage: null,
+                conclusion: `[Final Conclusion of the project...]`
+            },
+            'sentiment': {
+                title: 'Sentiment Analysis',
+                image: './assets/image/img4.jpg',
+                description: `A sentiment analysis tool that classifies text data into positive, negative, or neutral sentiments. Developed using natural language processing (NLP) techniques and Python libraries such as NLTK and scikit-learn.`,
+                databaseText: `[Text explaining the source texts, tweets, or reviews database...]`,
+                analysisText: `[Text about the data analysis...]`,
+                analysisImage: null,
+                conclusion: `[Final Conclusion of the project...]`
+            }
+        };
+
+        // Lấy ID dự án từ URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const projectId = urlParams.get('id');
+        const contentContainer = document.getElementById('project-detail-content');
+
+        // Hiển thị nội dung tương ứng
+        if (projectId && projectData[projectId]) {
+            const project = projectData[projectId];
+            contentContainer.innerHTML = `
+                <img src="${project.image}" alt="${project.title}" class="main-img">
+                <h1>${project.title}</h1>
+                <div class="description">${project.description}</div>
+                
+                <div class="project-section">
+                    <h2>1. Database</h2>
+                    <div class="project-text">${project.databaseText}</div>
+                    ${project.databaseImage ? `<img src="${project.databaseImage}" alt="Database Image">` : ''}
+                    ${project.databaseImage1Caption ? `<p class="table-caption" style="margin-top: -1.5rem; margin-bottom: 2rem;">${project.databaseImage1Caption}</p>` : ''}
+                    ${project.databaseIntroTable ? `<div class="project-text">${project.databaseIntroTable}</div>` : ''}
+                    ${project.databaseText2 ? `<p class="table-caption">${project.databaseText2}</p>` : ''}
+                    ${project.databaseImage2 ? `<img src="${project.databaseImage2}" alt="Database Additional Image">` : ''}
+                    ${project.databaseImageGroup ? `
+                    <div class="image-group-vertical">
+                        ${project.databaseImageGroup.map(img => `<img src="${img}" alt="Combined Table Part">`).join('')}
+                    </div>
+                    ` : ''}
+                </div>
+                
+                <div class="project-section">
+                    <h2>2. Data Analysis</h2>
+                    <div class="project-text">${project.analysisText}</div>
+                    ${project.analysisImage ? `<img src="${project.analysisImage}" alt="Analysis Image">` : ''}
+                    ${project.analysisText2 ? `<div class="project-text">${project.analysisText2}</div>` : ''}
+                    ${project.analysisImage2 ? `<img src="${project.analysisImage2}" alt="Analysis Secondary Image" style="margin-top: -2rem;">` : ''}
+                    ${project.analysisText3 ? `<div class="project-text">${project.analysisText3}</div>` : ''}
+                    ${project.analysisImage3 ? `<img src="${project.analysisImage3}" alt="Analysis Third Image">` : ''}
+                    ${project.analysisText4 ? `<div class="project-text">${project.analysisText4}</div>` : ''}
+                    ${project.analysisImage4 ? `<img src="${project.analysisImage4}" alt="Analysis Fourth Image">` : ''}
+                    ${project.analysisText5 ? `<div class="project-text">${project.analysisText5}</div>` : ''}
+                    ${project.analysisText6 ? `<div class="project-text">${project.analysisText6}</div>` : ''}
+                    ${project.analysisImage5 ? `<img src="${project.analysisImage5}" alt="Analysis Fifth Image">` : ''}
+                    ${project.analysisText7 ? `<div class="project-text">${project.analysisText7}</div>` : ''}
+                    ${project.analysisImage6 ? `<img src="${project.analysisImage6}" alt="Analysis Sixth Image">` : ''}
+                    ${project.analysisText8 ? `<div class="project-text">${project.analysisText8}</div>` : ''}
+                    ${project.analysisImageGroup ? `
+                    <div class="image-group-vertical">
+                        ${project.analysisImageGroup.map(img => `<img src="${img}" alt="Combined Table Part">`).join('')}
+                    </div>
+                    ` : ''}
+                </div>
+                
+                <div class="project-section">
+                    <h2>3. Conclusion</h2>
+                    <div class="project-text">${project.conclusion}</div>
+                </div>
+            `;
+        } else {
+            contentContainer.innerHTML = `<h1>Project not found!</h1><p class="description">Sorry, the project you are looking for does not exist.</p>`;
+        }
+    </script>
+</body>
+</html>
