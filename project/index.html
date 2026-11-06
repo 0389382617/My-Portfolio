@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case study | Luong Phat</title>
+    <meta name="description" content="Case studies by Luong Phat: the question, the data, the method and the result.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Case study | Luong Phat">
+    <meta property="og:description" content="The question, the data, the method and the result.">
+    <meta property="og:image" content="https://luongphatportfolio.netlify.app/assets/image/profile-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="../assets/image/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <meta name="theme-color" content="#0b5d5e">
+</head>
+<body>
+    <a href="#project-detail-content" class="skip-link">Skip to content</a>
+    <div class="scroll-progress"></div>
+    <header>
+        <div class="wrap header-inner">
+            <a href="../index.html" class="logo" aria-label="Luong Phat, home"><span class="logo-mark" aria-hidden="true">LP</span>Luong Phat</a>
+            <button class="menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><i class="fas fa-bars" aria-hidden="true"></i></button>
+            <nav id="site-nav" aria-label="Main">
+                <a href="../index.html#work" class="active">Work</a>
+                <a href="../index.html#process">Process</a>
+                <a href="../index.html#experience">Experience</a>
+                <a href="../index.html#skills">Skills</a>
+                <a href="../index.html#certificates">Certificates</a>
+                <a href="../index.html#contact" class="nav-cta">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="case-hero"></div>
+        <section class="project-detail">
+            <div class="wrap case-layout">
+                <aside class="toc" id="toc" aria-label="On this page"></aside>
+                <div class="project-detail-container" id="project-detail-content">
+                    <!-- Filled in by the script below -->
+                </div>
+            </div>
+        </section>
+        <div class="wrap" id="next-cases"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrap footer-inner">
+            <p>&copy; 2026 Luong Phat. Ho Chi Minh City, Vietnam.</p>
+            <div class="social-links">
+                <a href="https://github.com/0389382617" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/ph%C3%A1t-l%C6%B0%E1%BB%9Dng-8a47b42b4/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top-btn" aria-label="Back to top"><i class="fas fa-arrow-up" aria-hidden="true"></i></button>
+
+    <script src="../main.js"></script>
+    <script>
+        // Dữ liệu chi tiết cho từng dự án
+        const projectData = {
+            'portfolio': {
+                glance: [["Question", "Is Vietnam ready to absorb technology FDI?"], ["Data", "World Bank Data360 digital and prosperity indicators for Southeast Asian economies."], ["Tools", "Excel (PivotTables, Power Query), Power BI (DAX), Canva."], ["Finding", "Vietnam scores 0.68 on the GovTech index, above the SEA average (0.63) and the global average (0.55)."]],
+                kicker: "Case study · Power BI",
+                cover: "../assets/image/covers/cover-fdi.jpg",
+                subtitle: "Five Southeast Asian economies compared on digital readiness, exports, FDI, living costs and workforce, to test whether Vietnam is ready for technology investment.",
+                tags: ["Power BI", "DAX", "Excel", "Canva"],
+                imageCaption: "GovTech Maturity Index: Vietnam against the SEA and global averages (Power BI).",
+                highlights: [["0.68", "GovTech Maturity Index for Vietnam. SEA average 0.63, global 0.55."], ["97.15", "Global Cybersecurity Index. SEA average 68.57."], ["~107%", "Exports of goods and services as a share of GDP."], ["4.7%", "FDI net inflows as a share of GDP."]],
+                databaseSectionTitle: "The data",
+                analysisSectionTitle: "Findings: three questions",
+                conclusionTitle: "Conclusion",
+                
+                title: 'Is Vietnam ready for tech FDI?',
+                image: '../project image 1/Screenshot 2026-04-19 212049.png',
+                description: `This project provides an overview of Southeast Asia’s rapid transformation into a dynamic technology hub. It highlights key developments in digital innovation, economic growth, and the increasing role of technology across the region.<br><br>The goal of this project is to deliver a clear and engaging perspective on how Southeast Asia is emerging as an important player in the global tech landscape.<br><br><strong>Tools used:</strong> Excel (Pivot Tables, Power Query), PowerBI (DAX, Data Visualization), Canva`,
+                databaseText: `The dataset used in this project was sourced from the World Bank Data360 platform, focusing on Vietnam’s digital development and economic prosperity indicators.<br><br>
+Digital: <a href="https://data360.worldbank.org/en/economy/VNM?tab=Digital" target="_blank" style="color: var(--accent); text-decoration: underline;">https://data360.worldbank.org/en/economy/VNM?tab=Digital</a><br>
+Prosperity: <a href="https://data360.worldbank.org/en/economy/VNM?tab=Prosperity" target="_blank" style="color: var(--accent); text-decoration: underline;">https://data360.worldbank.org/en/economy/VNM?tab=Prosperity</a><br><br>
+The data was cleaned and transformed into a structured format for analysis. A central Fact Table was created, where indicators and their corresponding values were standardized into clear columns (Indicator, Value), enabling efficient analysis and visualization.`,
+                databaseImage: `../project image 1/fact table image.jpg`,
+                databaseImage1Caption: `Image 1. Fact table creation`,
+                databaseIntroTable: `To ensure a structured and objective analysis, this project adopts a set of key indicators from the GovTech Maturity framework and related economic metrics. These indicators are used to evaluate digital government development, technology adoption, and overall economic performance.<br><br>
+The table below summarizes the definitions, calculation methods, and analytical significance of each indicator used in this study.`,
+                databaseText2: `Table 1. Objective Evaluation Platforms & Indicator System`,
+                databaseImage2: `../project image 1/Screenshot 2026-04-18 112320.png`,
+                databaseText3: `Designed DAX calculations to aggregate key ICT metrics and create a composite index, enabling effective evaluation of digital development.`,
+                databaseImage3: `../project image 1/Screenshot 2026-04-21 170429.png`,
+                analysisText: `<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem;"><i class="fas fa-thumbtack" style="margin-right: 0.8rem;"></i>Problem Statement 1: Is Vietnam Ready?</strong>`,
+                analysisImage: `../project image 1/Screenshot 2026-04-19 212049.png`,
+                analysisText2: `Digital readiness is a <strong>prerequisite</strong> for all technology FDI flows.<br>
+According to the <strong>GovTech Maturity Index (GTMI)</strong>:<ul><li>Vietnam scored <strong>0.68</strong></li><li>Higher than the Southeast Asia average (<strong>0.63</strong>) and Global average (<strong>0.55</strong>)</li><li>Just behind the leading group like Singapore</li></ul>`,
+                analysisImage2: `../project image 1/Screenshot 2026-04-19 215506.png`,
+                analysisText3: `Delving into the ITU indicators, the data shows that Vietnam's digital penetration and capacity have reached a nationwide scale:<ul style="margin-bottom: 0.5rem;"><li>Mobile subscriptions: <strong>94.15</strong> / 100 people</li><li>Population coverage 3G: <strong>82.34%</strong></li><li>Global Cybersecurity Index: <strong>97.15</strong>, far exceeding the regional average (<strong>68.57</strong>) and global average (<strong>58.75</strong>)</li><li>Technical Score (TS): <strong>18.15</strong>, significantly higher than SEA (<strong>12.81</strong>) and Global (<strong>10.52</strong>)</li></ul>
+<strong style="font-size: 2.0rem;">==> Insight:</strong><br>
+This shows that Vietnam <strong>not only has sufficient technology</strong>, but is also <strong>ready to deploy and expand large-scale technology-based FDI models</strong>.<br>
+When placed in the regional and global context, Vietnam is not yet a saturated market, but <strong>has surpassed the regional average and is catching up very quickly</strong>.<br><br>
+This is precisely the stage that strategic investors often look for: <strong>a sufficiently solid foundation, while costs and growth potential remain significant</strong>.<br><br>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-top: 1.5rem;"><i class="fas fa-thumbtack" style="margin-right: 0.8rem;"></i>Problem Statement 2: EXPORT & FDI (Evidence of Investment Absorption Capacity)</strong>`,
+                analysisImage3: `../project image 1/Screenshot 2026-04-19 220947.png`,
+                analysisText4: `The data on Exports of goods & services (% GDP – average over time) shows:<ul style="margin-bottom: 0;"><li>Vietnam: approximately <strong>107% of GDP</strong></li><li>Malaysia: approximately <strong>114% of GDP</strong></li><li>Singapore: approximately <strong>179% of GDP</strong></li><li>Cambodia & Lao PDR: significantly lower (<strong>under 60%</strong>)</li></ul><strong>==></strong> This confirms that Vietnam is an <strong>export-driven economy</strong>, not dependent on domestic consumption, and has the capacity to participate deeply in the global value chain. More importantly, Vietnam's export share <strong>increases steadily over time</strong>, reflecting long-term production and service capabilities, not a short-term trend.`,
+                analysisImage4: `../project image 1/Screenshot 2026-04-19 222159.png`,
+                analysisText5: `In parallel, <strong>FDI net inflows (% GDP)</strong> show:<ul style="margin-bottom: 0;"><li>Singapore: <strong>14.7%</strong></li><li>Cambodia: <strong>6.0%</strong></li><li>Vietnam: <strong>4.7%</strong></li><li>Malaysia: <strong>3.7%</strong></li><li>Thailand: <strong>1.9%</strong></li></ul>
+<strong style="font-size: 2.0rem;">==> Insight:</strong><br>
+Vietnam is in the <strong>leading group of the region</strong>, and the key point is: <strong>FDI remains high while costs and average income are still low</strong>, creating room for long-term growth.<br>
+The combination of high exports and stable FDI shows that Vietnam <strong>not only attracts capital, but also absorbs and expands investment effectively</strong>.`,
+                analysisText6: `<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-top: 1.5rem;"><i class="fas fa-thumbtack" style="margin-right: 0.8rem;"></i>Problem Statement 3: COST & HUMAN CAPITAL (Long-term Competitive Advantage)</strong>`,
+                analysisImage5: `../project image 1/Screenshot 2026-04-19 223935.png`,
+                analysisText7: `Vietnam's <strong>GDP per capita (PPP)</strong> is at approximately <strong>0.3 million</strong>, significantly lower than:<ul style="margin-bottom: 0;"><li>Singapore (<strong>~3.1 million</strong>)</li><li>Malaysia (<strong>~0.8 million</strong>)</li></ul><strong>==></strong> This provides a clear advantage in <strong>living and operating costs</strong> for investors. At the same time, this income level is still higher than less developed countries in the region, helping to ensure <strong>social stability and domestic purchasing power</strong>.`,
+                analysisImage6: `../project image 1/Screenshot 2026-04-19 224845.png`,
+                analysisText8: `The <strong>Employment to population ratio</strong> shows:<ul style="margin-bottom: 0;"><li>Cambodia: <strong>80%</strong></li><li>Vietnam: <strong>74%</strong></li><li>Thailand: <strong>71%</strong></li><li>Singapore: <strong>64%</strong></li><li>Malaysia: <strong>63%</strong></li></ul>
+<strong style="font-size: 2.0rem;">==> Insight:</strong><br>
+Vietnam possesses a <strong>young, large workforce</strong> with a <strong>high market participation rate</strong>, along with <strong>access to technology and quick learning capabilities</strong>. Compared to Singapore (high-quality workforce but very high cost) and Malaysia, Vietnam has a clear advantage in <strong>workforce scalability</strong>, making it particularly suitable for models such as:<ul style="margin-bottom: 0;"><li><strong>Technology outsourcing</strong></li><li><strong>Digital platforms</strong></li><li>Large-scale <strong>Product development</strong></li></ul>Vietnam does not compete on being "expensive and perfect," but on <strong>speed, scale, and cost-effectiveness</strong>.`,
+                conclusion: `Synthesizing data from the World Bank Group, key takeaways can be drawn:<ul style="margin-bottom: 0;"><li>Vietnam's <strong>digital foundation</strong> has reached a level of readiness to support technology FDI.</li><li><strong>Export of goods & services exceeding 100% of GDP</strong> proves the ability to translate investment into real value.</li><li><strong>Stable FDI</strong> reflects the long-term confidence of international investors.</li><li><strong>Competitive living costs and human resources</strong> create room for medium- to long-term expansion.</li></ul><strong>🎯 Final Message:</strong><br>
+Vietnam is not just an alternative destination, but is gradually establishing its role as a <strong>new technology hub in Southeast Asia</strong>, with the capacity to scale and compete on the global investment map.`
+            },
+            'gasoline-prediction': {
+                glance: [["Question", "Can global oil, inflation and political stability predict Vietnam's RON 95-III price?"], ["Data", "Daily PVOil prices 2018 to 2026, global crude benchmarks, CPI and the WGI stability index."], ["Tools", "Python (Pandas, auto_arima, XGBoost), Excel (Power Query), Canva."], ["Result", "ARIMAX RMSE is about 778 VND. No seasonality, so SARIMAX added little. XGBoost lowered the error further."]],
+                kicker: "Case study · Python",
+                cover: "../assets/image/covers/cover-fuel.jpg",
+                subtitle: "Daily RON 95-III prices from 2018 to 2026, modeled against global oil, inflation and political stability, from a baseline ARIMA to ARIMAX, SARIMAX and XGBoost.",
+                tags: ["Python", "Pandas", "ARIMAX", "XGBoost"],
+                imageCaption: "RON 95-III price: forward-filled (top) against linearly interpolated (bottom).",
+                highlights: [["778 VND", "ARIMAX RMSE, measured on real, un-interpolated test data."], ["0.82", "Correlation between the price and global oil."], ["4", "Models compared: ARIMA, ARIMAX, SARIMAX and XGBoost."], ["2018 to 2026", "Daily price history used for training and testing."]],
+                databaseSectionTitle: "Data and preparation",
+                analysisSectionTitle: "Analysis and feature choices",
+                
+                title: 'Forecasting Vietnam\'s petrol price',
+                image: '../project image 2/Screenshot 2026-05-12 170545.png',
+                description: `
+                    <div class="executive-summary">
+                        <h3 style="color: var(--accent); margin-bottom: 1.5rem; font-size: 2.2rem; font-family: var(--font-display);"><i class="fas fa-file-invoice-dollar" style="margin-right: 1rem;"></i> Executive Summary</h3>
+                        <p style="font-size: 1.6rem; line-height: 1.8; color: var(--muted); margin-bottom: 1.5rem;">This analytical report investigates the dynamics of retail gasoline prices in Vietnam (specifically RON 95-III) by analyzing historical PVOil price data alongside global macroeconomic indicators. By evaluating the impact of Global Oil Prices, Inflation (CPI), and Political Stability, this project develops predictive models including ARIMAX, SARIMAX, and XGBoost to forecast fuel costs, providing actionable insights for logistics planning and supply chain cost optimization.</p>
+                        <p style="font-size: 1.6rem; line-height: 1.8; color: var(--muted); margin-bottom: 0;"><strong>Tools used:</strong> Python (EDA, Data Visualization, Pandas), Excel (Power Query), Canva</p>
+                    </div>`,
+                databaseText: `<strong style="font-size: 2.2rem; color: var(--accent); display: inline-block; margin-bottom: 1.5rem;"><i class="fas fa-database" style="margin-right: 0.8rem;"></i>Data Sources</strong><br>
+The foundation of this predictive model relies on a robust dataset that captures the multifaceted nature of fuel pricing. The data came from several authoritative sources and was combined into one dataset:
+<ul>
+    <li><strong>Domestic Retail Prices:</strong> Historical price adjustments for PVOil RON 95-III and E5 RON 92-II.</li>
+    <li><strong>Global Oil Benchmarks:</strong> Daily global crude oil prices.</li>
+    <li><strong>Macroeconomic Factors:</strong> Annual Inflation (CPI) and Political Stability index (WGI_SC) sourced from Worldwide Governance Indicators.</li>
+</ul>
+
+<div class="kpi-container">
+    <div class="kpi-card">
+        <h4>Data Timeframe</h4>
+        <div class="kpi-value">2018 - 2026</div>
+    </div>
+    <div class="kpi-card">
+        <h4>Data Frequency</h4>
+        <div class="kpi-value">Daily / Annual</div>
+    </div>
+    <div class="kpi-card">
+        <h4>Core Features</h4>
+        <div class="kpi-value">4+</div>
+    </div>
+</div>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 1rem;"><i class="fas fa-filter" style="margin-right: 0.8rem;"></i>Data Preprocessing & Feature Engineering</strong><br>
+Time-series data was synchronized to a daily frequency. Missing values caused by irregular price updates were handled using <strong>linear interpolation</strong> to maintain data continuity for training. Testing was strictly performed on actual observed data (dropping NaNs) to ensure realistic evaluation.
+<br><br><em>The preprocessing steps are shown below:</em>`,
+                databaseImageGroup: [
+                    '../project image 2/imagecode-noi-suy-tuyen-tinh.png'
+                ],
+                analysisText: `<strong style="font-size: 2.2rem; color: var(--accent); display: inline-block; margin-bottom: 1.5rem;"><i class="fas fa-chart-pie" style="margin-right: 0.8rem;"></i>Market Analysis & Strategic Selection</strong><br>
+A comprehensive market analysis forms the foundation of our forecasting strategy. By evaluating the interplay of global macroeconomic indicators, we strategically selected the most impactful drivers shaping domestic fuel prices. Initial correlation analysis revealed critical relationships between these exogenous variables and the local market.<br><br>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem;"><i class="fas fa-crosshairs" style="margin-right: 0.8rem;"></i>Strategic Target Variable Selection: Why RON 95-III?</strong><br>
+Heavy fuels (e.g., FO 3%S, FO 3.5%S) frequently suffer from zero values or missing data, while kerosene/diesel (KO/DO) exhibit extreme volatility due to data scarcity and State price regulation mechanisms.`,
+                analysisImage: `../project image 2/Screenshot 2026-05-12 141112.png`,
+                analysisText2: `Rather than dispersing resources on niche fuels with fragmented data, the predictive model was strategically optimized for <strong>RON 95-III gasoline</strong> based on three core rationales:
+<ul style="margin-top: 0.5rem; margin-bottom: 0;">
+    <li><strong>Time-Series Integrity:</strong> Consistent and continuous historical data suitable for training.</li>
+    <li><strong>High Macroeconomic Sensitivity:</strong> As an unleaded 95-octane gasoline conforming to national standards (TCVN 8063:2023 & QCVN 06:2022/BKHCN), its pricing is highly responsive to global macro shifts (<a href="https://comeco.vn/product/xang-ron-95-iii/" target="_blank" style="color: var(--accent); text-decoration: underline;">Reference</a>).</li>
+    <li><strong>Market Representation:</strong> It is the most popular and widely consumed fuel, serving as a better market benchmark than E-biofuels.</li>
+</ul>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 1.5rem;"><i class="fas fa-virus" style="margin-right: 0.8rem;"></i>The COVID-19 Hypothesis: When Data Goes 'Silent'</strong><br>
+During the 2020-2021 period, the dataset exhibited distinct "scars"—deep price plummets accompanied by significant data disruptions. The hypothesis is straightforward: The COVID-19 pandemic paralyzed transportation networks, leading to a severe collapse in consumption demand, and simultaneously caused unprecedented stagnation in the data collection systems themselves.<br><br>`,
+                analysisImage2: `../project image 2/Screenshot 2026-05-12 144122.png`,
+                analysisText3: `However, rather than artificially fabricating numbers to fill these data gaps, I opted for a qualitative approach. Since there is currently no official Mobility dataset available to quantitatively validate this, I treat this period as a unique <strong>external shock factor</strong> to explain the model's historical forecasting errors.`,
+                analysisImage3: `../project image 2/Screenshot 2026-05-12 145624.png`,
+                analysisText4: `The composite image above illustrates the trajectory of the COVID-19 pandemic in Vietnam during the 2020-2021 period, highlighting the drastic shift from initial containment to a severe national outbreak:
+<ul style="margin-top: 0.5rem; margin-bottom: 1.5rem;">
+    <li><strong>Left Panel (2020):</strong> Highlights early disease control efforts, characterized by widespread testing in Hanoi and unified public health campaigns, resulting in a low infection baseline.</li>
+    <li><strong>Right Panel (2021):</strong> Captures the critical 4th wave, marked by strict lockdown mandates in Ho Chi Minh City, emergency relief operations, and an exponential surge in infection rates.</li>
+</ul>`,
+                analysisText5: `<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 1.5rem;"><i class="fas fa-project-diagram" style="margin-right: 0.8rem;"></i>Decoding Exogenous Factors</strong><br>
+To accurately forecast domestic gasoline prices, the model integrates critical external variables. <strong>Global crude oil prices</strong> serve as the primary benchmark, while domestic <strong>inflation (CPI)</strong> and geopolitical <strong>stability indices (WGI_SC)</strong> are incorporated to account for macroeconomic conditions and global supply chain risks. This multi-dimensional approach significantly enhances the model's robustness and forecasting accuracy against unpredictable market fluctuations.`,
+                analysisImage5: `../project image 2/Screenshot 2026-05-12 150956.png`,
+                analysisText7: `<em><strong>Data Transformation Note:</strong> Since the macroeconomic variables (CPI, WGI_SC) were originally recorded at an annual frequency, they were normalized and distributed into a daily scale. This crucial preprocessing step ensures structural alignment with the daily PV Oil RON 95-III price data for precise time-series modeling.</em>`,
+                analysisText8: `<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 1.5rem;"><i class="fas fa-lightbulb" style="margin-right: 0.8rem;"></i>Smart Data Processing Strategy</strong><br>To enable the model to learn underlying patterns while ensuring realistic evaluation, a distinct data processing strategy was applied to the Train and Test sets. For the training set, <strong>linear interpolation</strong> was utilized. Time-series data requires continuity; interpolation allows the model to learn and estimate parameters smoothly, avoiding sudden disruptions that could skew trend recognition.<br><br>However, for the testing set, the actual observed data was strictly maintained by dropping NaN values. During forecasting, the model relies on actual exogenous variables combined with real historical values. Consequently, the evaluation error (RMSE/MSE) on the Test set reflects the true real-world forecasting capability with 100% fidelity, rather than comparing against artificially interpolated figures.
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+    <div style="display: flex; align-items: center;">
+        <img src="../project image 2/Screenshot 2026-05-12 164840.png" alt="Train set strategy" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 1rem; justify-content: center;">
+        <img src="../project image 2/Screenshot 2026-05-12 165013.png" alt="Test set strategy 1" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <img src="../project image 2/Screenshot 2026-05-12 165036.png" alt="Test set strategy 2" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <img src="../project image 2/Screenshot 2026-05-12 165101.png" alt="Test set strategy 3" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    </div>
+</div>
+<p style="margin-top: 1.5rem; margin-bottom: 1rem;">To enhance data 'smoothness', the team utilized the <strong>linear interpolation</strong> method.</p>
+<img src="../project image 2/Screenshot 2026-05-12 170641.png" alt="Data Smoothness Image" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 1.5rem;">
+<strong style="font-size: 1.8rem; color: var(--text);">Why Linear Interpolation?</strong>
+<ul style="margin-top: 0.5rem; margin-bottom: 1.5rem;">
+    <li><strong>Maintaining Data Continuity:</strong> It creates a smooth value trajectory between two known points, preventing empty gaps or sudden abrupt jumps.</li>
+    <li><strong>Preventing Major Distortions:</strong> Relying solely on Forward Fill (ffill) would replace missing values with the last known observation, creating artificial "flat" segments that fail to reflect actual market trends. Linear interpolation logically assumes a steady, proportional change.</li>
+    <li><strong>Calculation Mechanism:</strong> It computes the price delta between two timestamps, divides it by the number of gap days, and cumulatively applies the increment.</li>
+</ul>
+<img src="../project image 2/Screenshot 2026-05-12 170545.png" alt="Smoothed Data Trajectory" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 0.8rem;">
+<p style="margin-top: 0; font-size: 1.4rem; color: var(--muted); font-style: italic; text-align: center;">The image demonstrates how linear interpolation results in a smoother data trajectory.</p>`,
+                modelingTitle: `Modeling: from ARIMA to SARIMAX`,
+                modelingText: `<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem;"><i class="fas fa-layer-group" style="margin-right: 0.8rem;"></i>ARIMA</strong><br>
+The modeling journey progressed through 3 distinct phases: First, the team utilized a baseline <strong>ARIMA</strong> model.<br>The p, d, q parameters were determined using <code>auto_arima</code>.<br><br>
+<img src="../project image 2/Screenshot 2026-05-12 205604.png" alt="ARIMA Results" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 1rem;">
+As illustrated in the evaluation metrics below, the MSE and RMSE remained relatively high at this stage, indicating that the baseline model's forecasting capability was still limited.<br>
+<img src="../project image 2/Screenshot 2026-05-12 210116.png" alt="Model Evolution Step" style="width: 100%; max-width: 400px; display: block; margin: 0.8rem auto 1rem auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+After evaluating the ARIMA model, a critical limitation became apparent: it fails to account for exogenous variables, whereas domestic gasoline prices are heavily driven by global market fluctuations.<br><br>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem;"><i class="fas fa-chart-line" style="margin-right: 0.8rem;"></i>ARIMAX</strong><br>
+Recognizing this limitation, the architecture was upgraded from ARIMA to <strong>ARIMAX</strong>. This involved synchronizing and merging the dataset to incorporate key exogenous variables: Global Oil Price, Inflation (CPI), and Political Stability (WGI_SC). By doing so, the model can now capture the macroeconomic shocks driving domestic fuel prices.<br><br>The <code>auto_arima</code> function was utilized again to determine the optimal (p, d, q) parameters. Subsequently, the model was trained on the interpolated dataset and evaluated against the actual, un-interpolated test data.<br><br>
+<img src="../project image 2/Screenshot 2026-05-12 213533.png" alt="ARIMAX Results" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 1.5rem;">
+From the results, we can observe the following:
+<ul style="margin-top: 0.5rem; margin-bottom: 1rem;">
+    <li><strong>MSE (Mean Squared Error):</strong> Measuring the average squared difference between predicted and actual values, the figure of <strong>605,709.96</strong> indicates that the overall error variance remains substantial.</li>
+    <li><strong>RMSE (Root Mean Squared Error):</strong> At approximately <strong>778 VND</strong>, this indicates that on average, the model's predictions deviate by around 778 VND from the actual retail gasoline price.</li>
+</ul>
+Furthermore, to mitigate the risks of noise or multicollinearity among exogenous variables (X), the team systematically tested various combinations of these features against the RON 95-III target variable. The findings confirmed that utilizing the complete set of 3 exogenous variables yields the optimal predictive performance.<br><br>
+<img src="../project image 2/Screenshot 2026-05-12 214526.png" alt="ARIMAX Further Analysis" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 1rem;">
+<ul style="margin-top: 0.5rem; margin-bottom: 1.5rem;">
+    <li><strong>Inflation_CPI itpl_ln (0.476):</strong> Shows a moderate positive correlation. This indicates that as inflation rises, gasoline prices tend to increase accordingly. This aligns with economic rationale, as inflation reflects overall economic costs, inherently affecting fuel prices.</li>
+    <li><strong>WGI_SC itpl_ln (-0.198):</strong> Demonstrates a weak negative correlation. Higher political stability correlates with less price volatility, suggesting effective government regulatory mechanisms that prevent speculative hoarding.</li>
+    <li><strong>GlobalOilPrice itpl_ln (0.822):</strong> Exhibits a very strong positive correlation. This is a critical finding: global oil prices have a direct and powerful impact on domestic gasoline prices. When global oil prices rise, RON 95-III prices are almost certain to follow.</li>
+</ul>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem;"><i class="fas fa-chart-area" style="margin-right: 0.8rem;"></i>SARIMAX (Seasonal ARIMAX)</strong><br>
+Although the ARIMAX results showed improvement, the team wanted to investigate whether the gasoline price time-series exhibited seasonal characteristics. Building upon the ARIMAX architecture, the final phase involved upgrading to a <strong>SARIMAX</strong> model to capture these underlying seasonal patterns. By accounting for cyclical fluctuations alongside exogenous macroeconomic shocks, the model aims to further minimize forecasting errors and enhance the robustness of the predictions.<br><br>Similar to the previous phases, the (p, d, q) parameters for this SARIMAX iteration were determined using <code>auto_arima</code>, followed by training on the interpolated dataset and evaluating against the actual test data.<br><br>
+<img src="../project image 2/Screenshot 2026-05-12 220002.png" alt="SARIMAX Results" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 1rem;">
+The final results indicate that gasoline prices do not exhibit distinct seasonal cyclicality. Consequently, the SARIMAX model did not yield significantly superior performance compared to the ARIMAX model.`,
+                improvementTitle: `What I would do next`,
+                improvementText: `To further enhance the forecasting accuracy and robustness of the model, several potential improvements could be explored in future iterations:
+<ul style="margin-top: 1rem; margin-bottom: 1.5rem;">
+    <li><strong>Implementing XGBoost for Non-linear Regression:</strong> Recognizing that the current ARIMAX/SARIMAX models assume linear relationships and may not fully utilize recent historical data, transitioning to an <strong>XGBoost</strong> model is highly recommended. This would reframe the time-series forecasting into a feature-based regression problem, allowing the model to capture complex, non-linear dependencies and leverage lagged historical features (lags) more effectively.</li>
+</ul>
+<p style="margin-top: 0; margin-bottom: 1rem;">As illustrated below, the MSE and RMSE metrics decreased significantly after implementing the XGBoost model.</p>
+<img src="../project image 2/Screenshot 2026-05-12 220912.png" alt="XGBoost Proposal Image" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem;"><i class="fas fa-flag-checkered" style="margin-right: 0.8rem;"></i>Final Summary & Key Takeaways</strong><br>
+In conclusion, the application of <strong>XGBoost</strong> helps to:
+<ul style="margin-top: 0.5rem; margin-bottom: 1.5rem;">
+    <li>Capture the <strong>non-linear relationships</strong> between gasoline prices and economic factors.</li>
+    <li>Account for the fact that the current value of the gasoline price series depends on <strong>past historical values</strong>.</li>
+    <li>Provide the model with additional information to consider, thereby <strong>reducing forecast errors</strong>.</li>
+    <li>Potentially <strong>improve accuracy</strong> compared to traditional models like ARIMA/SARIMAX; however, it still reaffirms that exogenous variables such as <strong>Inflation (CPI), Political Stability, and Global Oil Prices</strong> remain impactful factors on RON 95-III gasoline prices.</li>
+</ul>`
+            },
+            'gls-dashboard': {
+                glance: [["Problem", "Weekly sales reports were rebuilt by hand in PowerPoint, about a day each time."], ["My role", "Data Analyst. I cleaned the data, defined the metrics, automated the refresh and built the dashboard."], ["Tools and time", "Google Sheets, Colab, Python, HTML/CSS/JS. 24/07/2026 to 05/08/2026."], ["Result", "About 1 day down to about 2 hours. Accepted (nghiệm thu) by the department."]],
+                kicker: "Work project · Python · HTML/CSS/JS",
+                cover: "../assets/image/covers/cover-gls.jpg",
+                subtitle: "One dashboard replaced a weekly PowerPoint routine for the International department: weekly, monthly and year-to-date sales by branch, route, salesman and agent, refreshed from a single export.",
+                tags: ["Python", "Google Sheets API", "Google Colab", "HTML/CSS/JS"],
+                imageCaption: "Weekly report view. Figures are blurred for confidentiality.",
+                highlights: [["~1 day → ~2 h", "Time to produce the weekly report, before and after."], ["20+", "Report tables, all built from shared metric definitions."], ["~2 weeks", "From first export to delivery, 24/07 to 05/08/2026."], ["Accepted", "Reviewed and formally accepted by the department."]],
+                conclusionTitle: "Strengths and limitations",
+                
+                title: 'Weekly sales dashboard for the International department',
+                image: '../project image 3/dashboard-weekly-view.png',
+                confidentialImages: true,
+                description: `
+                    <div class="executive-summary">
+                        <h3 style="color: var(--accent); margin-bottom: 1.5rem; font-size: 2.2rem; font-family: var(--font-display);"><i class="fas fa-gauge-high" style="margin-right: 1rem;"></i> Executive Summary</h3>
+                        <p style="font-size: 1.6rem; line-height: 1.8; color: var(--muted); margin-bottom: 1.5rem;">Built and delivered a standalone reporting dashboard for the International department at <strong>Global Logistics Service Co., Ltd (GLS)</strong>, covering weekly, monthly, and Year-to-Date (YTD) sales performance across branches, trade routes, salemen, and agents. Acted as the <strong>Data Analyst</strong> on the project: cleaning, metrics, automation and the dashboard itself.</p>
+                        <p style="font-size: 1.6rem; line-height: 1.8; color: var(--muted); margin-bottom: 0;"><strong>Timeframe:</strong> 24/07/2026 – 05/08/2026 (~2 weeks, end-to-end) &nbsp;|&nbsp; <strong>Tools used:</strong> Google Sheets, Google Colab, Python (automation, Google API), HTML/CSS/JS (standalone dashboard)</p>
+                    </div>
+                    <p style="font-size: 1.4rem; color: var(--muted); font-style: italic;">Note: the screenshots below are from the real, delivered dashboard. All figures, names, and other business-sensitive details have been blurred for confidentiality — only the interface and structure are shown.</p>
+                `,
+                databaseSectionTitle: 'Data collection and cleaning',
+                analysisSectionTitle: 'Dashboard architecture and build',
+                databaseText: `<strong style="font-size: 2.2rem; color: var(--accent); display: inline-block; margin-bottom: 1.5rem;"><i class="fas fa-database" style="margin-right: 0.8rem;"></i>Data Collection</strong><br>
+The International team's raw activity — shipment jobs, revenue, container/TEU volume, saleman, branch, and trade route — is exported weekly from the operating system into a shared <strong>Google Sheet</strong>. That sheet is organized into three logical extracts that the dashboard reconciles against each other:
+<ul>
+    <li><strong>Current-year transactions</strong> — every shipment job recorded so far in 2026, at the individual job level.</li>
+    <li><strong>Prior-year transactions</strong> — the equivalent 2025 data, kept aligned to the same schema so every metric can show a same-period-last-year comparison.</li>
+    <li><strong>Plan / target sheet</strong> — monthly revenue targets per saleman, only populated for salemen who are currently on an active plan.</li>
+</ul>
+Each of these is thousands of job-level rows updated on a rolling basis, and the dashboard's header always displays the row counts and last-refresh timestamp of each extract — so anyone opening the file can immediately tell how fresh the data is before trusting a number.
+<br><br>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 2rem;"><i class="fas fa-calculator" style="margin-right: 0.8rem;"></i>Key Metrics & Formulas</strong><br>
+Every table in the dashboard is built from a small set of shared definitions, kept consistent across all 20+ tables so numbers never mean two different things in two different places:
+<table class="tbl" style="width:100%; border-collapse:collapse; margin: 1rem 0 1.5rem; font-size: 1.4rem;">
+<tr style="background:var(--bg-2);"><th style="text-align:left; padding:0.8rem; border:1px solid var(--line);">Term</th><th style="text-align:left; padding:0.8rem; border:1px solid var(--line);">Formula / Logic</th></tr>
+<tr><td style="padding:0.8rem; border:1px solid var(--line);"><strong>HQ (Efficiency)</strong></td><td style="padding:0.8rem; border:1px solid var(--line);">SUM(profit) of matching transaction rows — the actual profit contribution, not revenue.</td></tr>
+<tr><td style="padding:0.8rem; border:1px solid var(--line);"><strong>DT (Revenue)</strong></td><td style="padding:0.8rem; border:1px solid var(--line);">SUM(total_revenue) of matching transaction rows.</td></tr>
+<tr><td style="padding:0.8rem; border:1px solid var(--line);"><strong>Margin %</strong></td><td style="padding:0.8rem; border:1px solid var(--line);">HQ ÷ DT — profit as a share of revenue.</td></tr>
+<tr><td style="padding:0.8rem; border:1px solid var(--line);"><strong>TEU</strong></td><td style="padding:0.8rem; border:1px solid var(--line);">SUM(20' containers) + 2 × SUM(40' containers) — standard industry container-equivalent conversion.</td></tr>
+<tr><td style="padding:0.8rem; border:1px solid var(--line);"><strong>%TT (target attainment)</strong></td><td style="padding:0.8rem; border:1px solid var(--line);">Actual ÷ Plan. Rendered as a progress bar: green ≥100%, orange 50–99%, red &lt;50%.</td></tr>
+<tr><td style="padding:0.8rem; border:1px solid var(--line);"><strong>chg(a, b)</strong></td><td style="padding:0.8rem; border:1px solid var(--line);">(a − b) ÷ b — the shared function behind every "vs. last period" / "vs. last year" column. Returns "—" instead of a misleading number when the comparison period has no data.</td></tr>
+<tr><td style="padding:0.8rem; border:1px solid var(--line);"><strong>Customer state</strong></td><td style="padding:0.8rem; border:1px solid var(--line);">Classified by presence across periods: <em>Brand New</em> (never seen before, in any prior week or year), <em>Gained</em> (absent last period but seen at some earlier point), <em>Remain</em> (present both this period and last), <em>Lost</em> (present last period, absent this one).</td></tr>
+<tr><td style="padding:0.8rem; border:1px solid var(--line);"><strong>Heatmap intensity</strong></td><td style="padding:0.8rem; border:1px solid var(--line);">5-level color scale based on each cell's value as a ratio of the table's maximum value, so the busiest saleman/agent combinations stand out visually without reading every number.</td></tr>
+</table>
+Customer matching across all of the above relies on a name-normalization step (stripping punctuation/whitespace, uppercasing) before comparing — otherwise the same customer typed slightly differently between two weekly exports would be miscounted as "new," inflating churn/acquisition numbers.
+<br><br>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 2rem;"><i class="fas fa-broom" style="margin-right: 0.8rem;"></i>Data Cleaning & Validation</strong><br>
+Before anything gets aggregated, the raw export goes through a Python (Pandas) cleaning pass in Google Colab:
+<ul>
+    <li><strong>Deduplication:</strong> shipment jobs occasionally get re-exported after edits; duplicate job IDs are detected and collapsed to the latest version.</li>
+    <li><strong>Standardization:</strong> branch codes, route types, and team labels are normalized (trimming whitespace, fixing inconsistent casing/abbreviations) so a "HCM " and "HCM" don't silently become two different groups when aggregated.</li>
+    <li><strong>Type conversion:</strong> currency, container count, and TEU fields are coerced to numeric types, since raw exports sometimes carry them as text with thousand separators.</li>
+    <li><strong>Missing-plan handling:</strong> branches or salemen without an active target correctly show as "no plan" (rather than 0%, which would misleadingly read as "0% of target") — this matters because a branch with no plan is a very different situation from a branch failing its plan.</li>
+    <li><strong>Cross-schema reconciliation:</strong> because the current-year and prior-year sheets were built at different times, column names and branch lists don't always match 1:1 — a mapping layer aligns them before any year-over-year comparison is calculated.</li>
+    <li><strong>Sanity checks:</strong> row counts and total revenue are cross-checked against the source export before and after cleaning, to catch silent data loss from a bad merge or filter.</li>
+</ul>`,
+                analysisText: `<strong style="font-size: 2.2rem; color: var(--accent); display: inline-block; margin-bottom: 1.5rem;"><i class="fas fa-sitemap" style="margin-right: 0.8rem;"></i>How the Dashboard Is Built and Delivered</strong><br>
+<div style="display:flex; flex-wrap:wrap; align-items:stretch; gap:0.5rem; margin: 1.5rem 0 2rem;">
+    <div style="flex:1; min-width:130px; background:var(--bg-2); border:0.15rem solid var(--line); border-radius:1rem; padding:1.2rem 1rem; text-align:center;">
+        <i class="fas fa-desktop" style="font-size:2rem; color:var(--accent); display:block; margin-bottom:0.6rem;"></i>
+        <strong style="font-size:1.3rem;">Source System</strong><p style="font-size:1.2rem; margin:0.4rem 0 0;">Shipment &amp; billing records</p>
+    </div>
+    <div style="display:flex; align-items:center; color:var(--accent); font-size:1.6rem;"><i class="fas fa-arrow-right"></i></div>
+    <div style="flex:1; min-width:130px; background:var(--bg-2); border:0.15rem solid var(--line); border-radius:1rem; padding:1.2rem 1rem; text-align:center;">
+        <i class="fas fa-table" style="font-size:2rem; color:var(--accent); display:block; margin-bottom:0.6rem;"></i>
+        <strong style="font-size:1.3rem;">Google Sheets</strong><p style="font-size:1.2rem; margin:0.4rem 0 0;">Weekly raw export</p>
+    </div>
+    <div style="display:flex; align-items:center; color:var(--accent); font-size:1.6rem;"><i class="fas fa-arrow-right"></i></div>
+    <div style="flex:1; min-width:130px; background:var(--bg-2); border:0.15rem solid var(--line); border-radius:1rem; padding:1.2rem 1rem; text-align:center;">
+        <i class="fa-brands fa-python" style="font-size:2rem; color:var(--accent); display:block; margin-bottom:0.6rem;"></i>
+        <strong style="font-size:1.3rem;">Google Colab</strong><p style="font-size:1.2rem; margin:0.4rem 0 0;">Python: clean, validate, aggregate</p>
+    </div>
+    <div style="display:flex; align-items:center; color:var(--accent); font-size:1.6rem;"><i class="fas fa-arrow-right"></i></div>
+    <div style="flex:1; min-width:130px; background:var(--bg-2); border:0.15rem solid var(--line); border-radius:1rem; padding:1.2rem 1rem; text-align:center;">
+        <i class="fas fa-file-code" style="font-size:2rem; color:var(--accent); display:block; margin-bottom:0.6rem;"></i>
+        <strong style="font-size:1.3rem;">Standalone HTML</strong><p style="font-size:1.2rem; margin:0.4rem 0 0;">Data re-embedded &amp; regenerated</p>
+    </div>
+    <div style="display:flex; align-items:center; color:var(--accent); font-size:1.6rem;"><i class="fas fa-arrow-right"></i></div>
+    <div style="flex:1; min-width:130px; background:var(--bg-2); border:0.15rem solid var(--line); border-radius:1rem; padding:1.2rem 1rem; text-align:center;">
+        <i class="fas fa-users" style="font-size:2rem; color:var(--accent); display:block; margin-bottom:0.6rem;"></i>
+        <strong style="font-size:1.3rem;">Business Team</strong><p style="font-size:1.2rem; margin:0.4rem 0 0;">Opens file directly, no setup</p>
+    </div>
+</div>
+I deliberately chose a <strong>standalone HTML/CSS/JS file</strong> over a hosted BI tool for this handoff: the recipients are a non-technical business team with no server, login, or IT ticket in the loop. A Python script takes the cleaned, aggregated data and injects it directly into the HTML template as embedded JSON — so the final file is fully self-contained and can be opened by double-clicking it, or shared over email/Drive, with zero setup.
+<br><br>
+<strong>Automation loop:</strong> once the International team drops the latest weekly export into the shared Google Sheet, they run one Colab cell. That cell authenticates to Google Sheets via a service account, pulls and cleans the data, recalculates every metric, and regenerates the dashboard HTML file in place — replacing the manual "rebuild the PowerPoint" step entirely.
+<br><br>
+<strong>Inside the dashboard,</strong> vanilla JavaScript renders every table from the embedded dataset based on the selected week/month and branch filter, applies conditional formatting (green/red variance arrows, progress bars for target attainment), and keeps the file lightweight enough to stay responsive despite holding a full year of transaction-level history.
+
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 2rem;"><i class="fas fa-bug" style="margin-right: 0.8rem;"></i>Bugs I Caught & Fixed</strong><br>
+A few data-integrity issues surfaced during development that would have silently produced wrong numbers if left unchecked:
+<ul>
+    <li><strong>Silent number-parsing bug:</strong> the Google Sheets API returns large numbers as formatted strings (e.g. with thousand-separator commas). JavaScript's number parser only reads up to the first comma, so a value could get truncated to a fraction of itself without throwing any error. Fixed by requesting unformatted numeric values directly from the API instead of parsing display strings.</li>
+    <li><strong>Container-volume double-counting:</strong> a container-size sub-column occasionally came through blank instead of zero, and an early version of the TEU formula treated blank as "add nothing extra" rather than excluding it correctly — inflating total TEU. Caught by cross-checking a recalculated total against a previously verified snapshot and tracing the gap back to that column.</li>
+    <li><strong>Mismatched category label:</strong> the import/export split relied on a field expected to contain the word "Import," but the source system actually labels those rows "Inbound." The filter was silently returning zero for that entire segment until traced and corrected.</li>
+    <li><strong>Time-bounded targets:</strong> a saleman whose plan only applies for part of the year needed to automatically disappear from target-tracking tables once their plan period ends, rather than showing a stale, no-longer-relevant target indefinitely.</li>
+</ul>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 2rem;"><i class="fas fa-vial" style="margin-right: 0.8rem;"></i>QA & Validation Process</strong><br>
+Every data refresh follows the same checklist before being handed off:
+<ul>
+    <li>Recalculated branch-level and company-level totals are cross-checked against the previous known-good version — any unexplained jump gets investigated before publishing, not after.</li>
+    <li>Aggregated periods (e.g. a quarter) are cross-verified by independently summing their underlying sub-periods (e.g. its three months) and confirming the two match exactly.</li>
+    <li>Row counts for every data extract are logged and displayed in the dashboard header itself, so a partial or failed data pull is visible immediately rather than discovered days later.</li>
+    <li>The browser console is checked for JavaScript errors after every rebuild, since a silent script error can leave a table rendering stale or empty data without any visible warning.</li>
+</ul>
+
+<strong style="font-size: 1.8rem; color: var(--text); display: inline-block; margin-top: 2rem; margin-bottom: 1rem;"><i class="fas fa-layer-group" style="margin-right: 0.8rem;"></i>Report Modules Covered</strong>
+<p style="margin-bottom: 0.8rem;">Each period view (Weekly / Monthly) is built from more than a dozen linked report tables, including:</p>
+<ul>
+    <li><strong>Freehand efficiency by saleman</strong> — jobs, margin %, and results vs. plan.</li>
+    <li><strong>Branch performance</strong> — actual vs. plan, vs. prior period, and vs. the same period last year.</li>
+    <li><strong>Trade route efficiency</strong> — job count, container volume (20'/40'), and air freight vs. plan.</li>
+    <li><strong>Team & regional target tracking</strong> for Freehand and Agent groups.</li>
+    <li><strong>Shipment mix by route × branch</strong> (FCL / LCL / Air).</li>
+    <li><strong>Agent ranking</strong> by efficiency and share of total volume.</li>
+    <li><strong>GFS export/import split</strong>.</li>
+    <li><strong>Customer lifecycle tracking</strong> — churned, returning, brand-new, and retained customers.</li>
+    <li><strong>Weekly/monthly heatmaps</strong> by saleman and by agent.</li>
+    <li><strong>Cross-sell visibility</strong> — customers using both FCL and Logistics services together.</li>
+    <li><strong>YTD summary</strong> — 7 additional cumulative charts spanning the full year to date.</li>
+</ul>
+
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 2rem;"><i class="fas fa-hand-pointer" style="margin-right: 0.8rem;"></i>Try It Yourself — Interactive Demo</strong><br>
+<p style="margin-bottom: 1rem;">Since the real dashboard's figures are blurred above for confidentiality, here's a small working recreation of its filtering logic — built with the same vanilla-JS approach, using <strong>entirely fictional sample data</strong> (not GLS's real numbers) so you can see the interaction itself. Pick a branch and a week:</p>
+<div id="gls-demo" class="panel" style="background:var(--card); border:0.15rem solid var(--line); border-radius:1.6rem; padding:2rem;">
+    <div style="display:flex; flex-wrap:wrap; gap:1.5rem; margin-bottom:1.5rem;">
+        <div>
+            <label for="demoBranch" style="display:block; font-size:1.2rem; color:var(--muted); margin-bottom:0.4rem; text-transform:uppercase; letter-spacing:0.1rem;">Branch</label>
+            <select id="demoBranch" style="padding:0.8rem 1.2rem; border-radius:0.8rem; border:0.15rem solid var(--line); font-size:1.4rem; color:var(--text); background:var(--card);">
+                <option value="All">All Branches</option>
+                <option value="Branch A">Branch A</option>
+                <option value="Branch B">Branch B</option>
+                <option value="Branch C">Branch C</option>
+            </select>
+        </div>
+        <div>
+            <label for="demoWeek" style="display:block; font-size:1.2rem; color:var(--muted); margin-bottom:0.4rem; text-transform:uppercase; letter-spacing:0.1rem;">Week</label>
+            <select id="demoWeek" style="padding:0.8rem 1.2rem; border-radius:0.8rem; border:0.15rem solid var(--line); font-size:1.4rem; color:var(--text); background:var(--card);">
+                <option value="W1">Week 1</option>
+                <option value="W2">Week 2</option>
+                <option value="W3">Week 3</option>
+            </select>
+        </div>
+    </div>
+    <div id="demoKpis" class="kpi-container" style="margin: 0 0 2rem;"></div>
+    <div>
+        <p style="font-size:1.3rem; font-weight:700; color:var(--text); margin-bottom:1rem; text-transform:uppercase; letter-spacing:0.08rem;">Route Efficiency vs. Plan</p>
+        <div id="demoRoutes" style="display:flex; flex-direction:column; gap:1rem;"></div>
+    </div>
+    <p style="font-size:1.2rem; color:var(--muted); font-style:italic; margin-top:1.5rem; margin-bottom:0;">Sample data for demonstration purposes only — not GLS's actual figures.</p>
+</div>
+
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 2rem;"><i class="fas fa-calendar-week" style="margin-right: 0.8rem;"></i>Weekly Report View</strong><br>
+Users pick a week and branch from the filter bar; KPI cards and every table below refresh instantly. Branch performance (green header) and route efficiency vs. plan (blue header) sit side by side, with team/region targets (orange header) further down.`,
+                analysisImage: `../project image 3/dashboard-weekly-view.png`,
+                analysisText2: `<p class="table-caption" style="margin-top: -1rem;">Weekly report view — figures blurred for confidentiality.</p>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 1rem;"><i class="fas fa-calendar-days" style="margin-right: 0.8rem;"></i>Monthly Report View</strong><br>
+Same structure as the Weekly tab, with an added comparison against the previous month and against the same month last year — useful for spotting seasonal shifts.`,
+                analysisImage2: `../project image 3/dashboard-monthly-view.png`,
+                analysisText3: `<p class="table-caption" style="margin-top: -1rem;">Monthly report view — figures blurred for confidentiality.</p>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 1rem;"><i class="fas fa-chart-simple" style="margin-right: 0.8rem;"></i>YTD Summary Navigator</strong><br>
+The Year-to-Date tab organizes 7 cumulative charts (efficiency by saleman, revenue by branch, margin trends, and more) behind an expandable card grid, keeping the page light until a specific chart is opened.`,
+                analysisImage3: `../project image 3/dashboard-ytd-view.png`,
+                analysisText4: `<p class="table-caption" style="margin-top: -1rem;">YTD summary tab — chart contents open on demand.</p>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 1.5rem;"><i class="fas fa-lightbulb" style="margin-right: 0.8rem;"></i>What the Dashboard Enables</strong><br>
+Beyond just displaying numbers, the dashboard was designed to support real decision-making for the International team — continuous performance tracking, customer trend visibility, and target tracking per saleman, detailed further below.`,
+                modelingTitle: `Insights and analytical approach`,
+                modelingText: `<p>The value of this project wasn't just building tables — it was structuring the data so that patterns which were invisible in a static monthly PowerPoint became visible every week. A few examples of the analytical lenses the dashboard applies (illustrative, figures blurred):</p>
+<ul>
+    <li><strong>Branch × route cross-analysis:</strong> a branch hitting its overall revenue plan can still be masking a weak trade route underneath it — table B (Efficiency by Route) is built specifically so a branch total is never taken at face value; it's cross-checked against its route mix.</li>
+    <li><strong>Target-attainment gap analysis:</strong> by placing "actual vs. plan," "vs. last period," and "vs. same period last year" side by side, it becomes possible to tell apart three very different situations that look identical from a single revenue number alone: a genuine slowdown, normal seasonality, or a temporary dip against an unusually strong prior period.</li>
+    <li><strong>Customer lifecycle segmentation:</strong> splitting customers into new, returning, retained, and gone-quiet segments (tables H–K) turns "revenue went down" into an actionable signal — e.g., a drop driven by a handful of accounts going quiet points to a very different fix than a drop spread evenly across the whole customer base.</li>
+    <li><strong>Agent vs. Freehand mix:</strong> tracking Freehand and Agent performance separately by branch surfaces which branches are overly dependent on agent-sourced volume versus their own direct sales effort — a structural signal about how resilient each branch's pipeline really is.</li>
+    <li><strong>Cross-sell opportunity spotting:</strong> table L2 flags customers already using FCL shipping who are not yet using the company's Logistics services (or vice versa) — a direct, ready-to-use list for the sales team rather than an insight buried in a spreadsheet.</li>
+</ul>
+<p>Each of these lenses was chosen to answer a specific question the previous static report couldn't: not just "what happened," but "where exactly, compared to what, and what should we do next."</p>`,
+                improvementTitle: `Recommendations and outcome`,
+                improvementText: `<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem;"><i class="fas fa-list-check" style="margin-right: 0.8rem;"></i>Recommendations Delivered</strong><br>
+Alongside the dashboard itself, I proposed a few working practices to help the business team get the most out of it:
+<ul>
+    <li>Adopt a <strong>weekly review cadence</strong> per branch using the Weekly tab, instead of waiting for the end-of-month report to catch a slowdown.</li>
+    <li>Prioritize outreach to the <strong>"customer gone quiet"</strong> segment flagged each week, since re-engaging an existing account is typically faster than acquiring a new one.</li>
+    <li>Use the <strong>Agent Ranking</strong> and <strong>cross-sell (L2)</strong> tables as a standing input to sales planning meetings, rather than one-off analysis.</li>
+    <li>Treat branches with <strong>no active plan</strong> as a data-hygiene flag to resolve, since it silently excludes them from target-attainment reporting.</li>
+</ul>
+
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 2rem;"><i class="fas fa-comments" style="margin-right: 0.8rem;"></i>Communicating Results to Leadership</strong><br>
+Building the dashboard was only half the job — the other half was making sure the International team and BOD could actually act on it without needing me to translate every number:
+<ul>
+    <li><strong>Led with the headline, not the pipeline:</strong> presentations opened with the 2–3 numbers that mattered most that week (e.g. overall target attainment and the biggest branch/route swing), before drilling into supporting tables — busy stakeholders shouldn't have to dig through 14 tables to find the one that matters.</li>
+    <li><strong>Translated metrics into plain language:</strong> instead of citing "%TT" or "chg vs. CK," the narrative framed it as "this branch is ahead of plan but behind where it was this time last year" — the dashboard still shows the raw metric for anyone who wants it, but the story leads with meaning, not jargon.</li>
+    <li><strong>Pre-built the drill-down path:</strong> because I anticipated the obvious next questions ("which route is dragging that branch down?", "is this a specific customer or spread out?"), the answer was always one filter click away during the meeting instead of "let me get back to you."</li>
+    <li><strong>Made the ask concrete:</strong> each review closed with a specific, assignable action (e.g. reach out to the flagged "gone quiet" accounts this week) rather than leaving the data to speak for itself.</li>
+</ul>
+
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 2rem;"><i class="fas fa-flag-checkered" style="margin-right: 0.8rem;"></i>Outcome</strong><br>
+<div class="kpi-container">
+    <div class="kpi-card">
+        <h4>Status</h4>
+        <div class="kpi-value" style="font-size: 2rem;">Accepted & In Use</div>
+    </div>
+    <div class="kpi-card">
+        <h4>Reporting Time</h4>
+        <div class="kpi-value" style="font-size: 2rem;">~1 Day → ~2 Hours</div>
+    </div>
+    <div class="kpi-card">
+        <h4>Refresh Method</h4>
+        <div class="kpi-value" style="font-size: 2rem;">1-Click Upload</div>
+    </div>
+</div>
+<ul style="margin-top: 1rem;">
+    <li>The dashboard was reviewed and formally accepted (<em>nghiệm thu</em>) by the International department.</li>
+    <li>What used to take roughly a full day of manually building PowerPoint reports now takes about <strong>2 hours</strong>: the team simply uploads the latest export to Google Colab, and the dashboard's figures update automatically.</li>
+    <li>Management can now monitor sales performance continuously rather than only at report time, making it easier to identify underperforming areas and double down on what's working.</li>
+</ul>`,
+                conclusion: `<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem;"><i class="fas fa-square-check" style="margin-right: 0.8rem;"></i>Strengths of This Solution</strong><br>
+<ul>
+    <li><strong>Zero-infrastructure deployment:</strong> opens directly in any browser — no server, login, or IT setup, which matters when the audience is a non-technical business team.</li>
+    <li><strong>Built-in trust signal:</strong> the data-freshness indicator (row counts + timestamp) is always visible, so no one unknowingly reads stale numbers as current.</li>
+    <li><strong>Consistent comparison framework:</strong> "vs. plan," "vs. last period," and "vs. same period last year" are calculated the same way in every table, so results are comparable across the whole dashboard rather than table-by-table.</li>
+    <li><strong>Resilient customer matching:</strong> name normalization prevents formatting differences between exports from inflating "new customer" or "churn" counts.</li>
+</ul>
+<strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 2rem;"><i class="fas fa-triangle-exclamation" style="margin-right: 0.8rem;"></i>Limitations & What I'd Improve Next</strong><br>
+<ul>
+    <li><strong>Single monolithic file:</strong> a several-megabyte HTML file is fragile to hand-edit and will keep growing as more transaction history accumulates — if scope expands further, migrating to a lightweight database + templated front-end would scale better than embedding everything in one file.</li>
+    <li><strong>Manual refresh trigger:</strong> updating still requires someone to run one Colab cell rather than a fully scheduled job — a good next step given the automation is already 90% there.</li>
+    <li><strong>No automated regression testing yet:</strong> validation today is a manual cross-check checklist after each refresh; the logical next step is a small script that automatically diffs new totals against the previous version and flags anomalies before anyone even opens the file.</li>
+    <li><strong>Legacy fields pending cleanup:</strong> a couple of columns inherited from an earlier data source are intentionally disabled until their accuracy can be fully verified, rather than risk showing an unverified number.</li>
+</ul>`
+            }
+        };
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const projectId = urlParams.get('id');
+        const contentContainer = document.getElementById('project-detail-content');
+        const heroEl = document.getElementById('case-hero');
+        const tocEl = document.getElementById('toc');
+
+        // Old inline-styled sub-headings become real headings; "==> Insight" becomes a callout label.
+        function tidy(h) {
+            if (!h) return h;
+            return h
+                .replace(/<h3 style="color: var\(--accent\)[^>]*>[\s\S]*?Executive Summary<\/h3>/g, '')
+                .replace(/<strong style="font-size: 2\.\d?rem;[^"]*color: var\(--accent\)[^"]*">([\s\S]*?)<\/strong>(?:\s*<br>)?/g, '<h3 class="sub">$1</h3>')
+                .replace(/<strong style="font-size: 1\.8rem; color: var\(--text\)[^"]*">([\s\S]*?)<\/strong>(?:\s*<br>)?/g, '<h4 class="sub">$1</h4>')
+                .replace(/<strong style="font-size: 2\.0rem;">==> Insight:<\/strong>(?:\s*<br>)?/g, '<div class="insight-label">Insight</div>')
+                .replace(/<strong>==><\/strong>/g, '<strong>→</strong>')
+                .replace(/==>/g, '→');
+        }
+
+        // An <img>, wrapped in a figure with an optional caption and the "Confidential" badge when needed
+        function imgTag(src, alt, cssClass, confidential, caption) {
+            if (!src) return '';
+            const img = `<img src="${src}" alt="${alt}"${cssClass ? ` class="${cssClass}"` : ''}>`;
+            const frame = confidential
+                ? `<div class="confidential-frame">${img}<div class="confidential-badge"><i class="fas fa-lock" aria-hidden="true"></i><span>Confidential</span><small>Figures hidden for privacy</small></div></div>`
+                : img;
+            return `<figure class="shot">${frame}${caption ? `<figcaption>${caption}</figcaption>` : ''}</figure>`;
+        }
+        const txt = (h, extra) => h ? `<div class="project-text"${extra || ''}>${tidy(h)}</div>` : '';
+
+        if (projectId && projectData[projectId]) {
+            const project = projectData[projectId];
+            const conf = project.confidentialImages;
+            document.title = project.title + ' | Luong Phat';
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc && project.subtitle) metaDesc.setAttribute('content', project.subtitle);
+
+            heroEl.className = 'case-hero';
+            heroEl.innerHTML = `
+                <div class="case-hero-bg" style="background-image:url('${project.cover}')"></div>
+                <div class="wrap case-hero-inner">
+                    <a class="back-btn" href="../index.html#work"><i class="fas fa-arrow-left" aria-hidden="true"></i> All case studies</a>
+                    <div class="case-kicker">${project.kicker || 'Case study'}</div>
+                    <h1>${project.title}</h1>
+                    <p class="lede">${project.subtitle || ''}</p>
+                    <div class="tags">${(project.tags || []).map(x => `<span>${x}</span>`).join('')}</div>
+                </div>`;
+
+            const glanceHtml = project.glance ? `<dl class="glance">${project.glance.map((g, i) =>
+                `<div${i === 3 ? ' class="win"' : ''}><dt>${g[0]}</dt><dd>${g[1]}</dd></div>`).join('')}</dl>` : '';
+            const statsHtml = project.highlights ? `<div class="stats-row">${project.highlights.map(h =>
+                `<div class="stat"><div class="stat-num">${h[0]}</div><p>${h[1]}</p></div>`).join('')}</div>` : '';
+
+            const section = (title, body, cls) => `<section class="project-section${cls ? ' ' + cls : ''}"><h2>${title}</h2>${body}</section>`;
+
+            contentContainer.innerHTML = [
+                section('Overview', `
+                    ${glanceHtml}
+                    ${statsHtml}
+                    ${imgTag(project.image, project.title, 'main-img', conf, project.imageCaption)}
+                    <div class="description">${tidy(project.description)}</div>`, 'first'),
+
+                section(project.databaseSectionTitle || 'Data', `
+                    ${txt(project.databaseText)}
+                    ${imgTag(project.databaseImage, 'Database image', '', conf, project.databaseImage1Caption)}
+                    ${project.databaseIntroTable ? txt(project.databaseIntroTable) : ''}
+                    ${project.databaseText2 ? `<p class="table-caption">${project.databaseText2}</p>` : ''}
+                    ${imgTag(project.databaseImage2, 'Database additional image', '', conf)}
+                    ${project.databaseText3 ? txt(project.databaseText3) : ''}
+                    ${imgTag(project.databaseImage3, 'Database additional image 2', '', conf)}
+                    ${project.databaseImageGroup ? `<div class="image-group-vertical">${project.databaseImageGroup.map(img => `<figure class="shot"><img src="${img}" alt="Combined table part"></figure>`).join('')}</div>` : ''}`),
+
+                section(project.analysisSectionTitle || 'Analysis', `
+                    ${txt(project.analysisText)}
+                    ${imgTag(project.analysisImage, 'Analysis image', '', conf)}
+                    ${txt(project.analysisText2)}
+                    ${imgTag(project.analysisImage2, 'Analysis secondary image', '', conf)}
+                    ${txt(project.analysisText3)}
+                    ${imgTag(project.analysisImage3, 'Analysis third image', '', conf)}
+                    ${txt(project.analysisText4)}
+                    ${imgTag(project.analysisImage4, 'Analysis fourth image', '', conf)}
+                    ${txt(project.analysisText5)}
+                    ${txt(project.analysisText6)}
+                    ${imgTag(project.analysisImage5, 'Analysis fifth image', '', conf)}
+                    ${txt(project.analysisText7)}
+                    ${imgTag(project.analysisImage6, 'Analysis sixth image', '', conf)}
+                    ${txt(project.analysisText8)}
+                    ${project.analysisImageGroup ? `<div class="image-group-vertical">${project.analysisImageGroup.map(img => `<figure class="shot"><img src="${img}" alt="Combined table part"></figure>`).join('')}</div>` : ''}`),
+
+                project.modelingTitle ? section(project.modelingTitle, txt(project.modelingText)) : '',
+                project.improvementTitle ? section(project.improvementTitle, txt(project.improvementText)) : '',
+                project.conclusion ? section(project.conclusionTitle || 'Conclusion', txt(project.conclusion)) : ''
+            ].join('');
+
+            // Wrap each "Insight" label and what follows it (until the next heading or figure) in a callout
+            contentContainer.querySelectorAll('.insight-label').forEach(label => {
+                const box = document.createElement('div');
+                box.className = 'insight';
+                label.parentNode.insertBefore(box, label);
+                box.appendChild(label);
+                let n = box.nextSibling;
+                while (n && !(n.nodeType === 1 && (/^H[1-6]$/.test(n.tagName) || n.tagName === 'FIGURE' || n.classList.contains('insight-label')))) {
+                    const next = n.nextSibling;
+                    box.appendChild(n);
+                    n = next;
+                }
+                while (box.lastChild && ((box.lastChild.nodeType === 1 && box.lastChild.tagName === 'BR') || (box.lastChild.nodeType === 3 && !box.lastChild.textContent.trim()))) box.removeChild(box.lastChild);
+            });
+
+            // Table of contents from the section headings, with scroll-spy
+            const sections = [...contentContainer.querySelectorAll('.project-section')];
+            sections.forEach((sec, i) => { sec.id = 'sec-' + (i + 1); });
+            tocEl.innerHTML = `<p class="toc-title">On this page</p><ol>${sections.map(sec =>
+                `<li><a href="#${sec.id}">${sec.querySelector('h2').textContent}</a></li>`).join('')}</ol>`;
+            const tocLinks = [...tocEl.querySelectorAll('a')];
+            if ('IntersectionObserver' in window) {
+                const spy = new IntersectionObserver(entries => entries.forEach(en => {
+                    if (!en.isIntersecting) return;
+                    tocLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + en.target.id));
+                }), { rootMargin: '-20% 0px -70% 0px' });
+                sections.forEach(sec => spy.observe(sec));
+            }
+
+            // Click an image to enlarge it
+            const box = document.createElement('div');
+            box.className = 'lightbox';
+            box.setAttribute('role', 'dialog');
+            box.setAttribute('aria-label', 'Image preview');
+            box.innerHTML = '<button type="button" aria-label="Close preview"><i class="fas fa-xmark" aria-hidden="true"></i></button><img alt="">';
+            document.body.appendChild(box);
+            const close = () => box.classList.remove('open');
+            contentContainer.querySelectorAll('figure.shot img').forEach(img => {
+                img.tabIndex = 0;
+                img.setAttribute('role', 'button');
+                const open = () => { box.querySelector('img').src = img.src; box.querySelector('img').alt = img.alt; box.classList.add('open'); box.querySelector('button').focus(); };
+                img.addEventListener('click', open);
+                img.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+            });
+            box.addEventListener('click', e => { if (e.target !== box.querySelector('img')) close(); });
+            document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+
+            if (projectId === 'gls-dashboard') {
+                initGlsDemo();
+            }
+
+            const others = Object.keys(projectData).filter(k => k !== projectId);
+            document.getElementById('next-cases').innerHTML = `<div class="next-cases"><h2>More case studies</h2><div class="next-grid">${others.map(k =>
+                `<a href="./index.html?id=${k}"><small>${projectData[k].kicker || 'Case study'}</small><strong>${projectData[k].title}</strong></a>`).join('')}</div></div>`;
+        } else {
+            heroEl.innerHTML = '';
+            tocEl.remove();
+            contentContainer.innerHTML = `<h1>Case study not found</h1><p class="description">Pick one from the <a href="../index.html#work">work section</a>.</p>`;
+        }
+
+        // Interactive demo (gls-dashboard) — entirely fictional sample data, not GLS's real figures
+        function initGlsDemo() {
+            const demoData = {
+                'All': {
+                    W1: { efficiency: 8200, jobs: 62, revenue: 71000, routes: [{ name: 'Route A', pct: 92 }, { name: 'Route B', pct: 58 }, { name: 'Route C', pct: 121 }] },
+                    W2: { efficiency: 9100, jobs: 70, revenue: 79500, routes: [{ name: 'Route A', pct: 104 }, { name: 'Route B', pct: 45 }, { name: 'Route C', pct: 99 } ] },
+                    W3: { efficiency: 7600, jobs: 54, revenue: 66200, routes: [{ name: 'Route A', pct: 77 }, { name: 'Route B', pct: 63 }, { name: 'Route C', pct: 108 }] }
+                },
+                'Branch A': {
+                    W1: { efficiency: 3400, jobs: 24, revenue: 29500, routes: [{ name: 'Route A', pct: 110 }, { name: 'Route B', pct: 40 }, { name: 'Route C', pct: 95 }] },
+                    W2: { efficiency: 3800, jobs: 27, revenue: 32800, routes: [{ name: 'Route A', pct: 118 }, { name: 'Route B', pct: 35 }, { name: 'Route C', pct: 101 }] },
+                    W3: { efficiency: 2900, jobs: 20, revenue: 26100, routes: [{ name: 'Route A', pct: 88 }, { name: 'Route B', pct: 48 }, { name: 'Route C', pct: 90 }] }
+                },
+                'Branch B': {
+                    W1: { efficiency: 2600, jobs: 19, revenue: 22800, routes: [{ name: 'Route A', pct: 71 }, { name: 'Route B', pct: 66 }, { name: 'Route C', pct: 130 }] },
+                    W2: { efficiency: 2950, jobs: 22, revenue: 25100, routes: [{ name: 'Route A', pct: 84 }, { name: 'Route B', pct: 52 }, { name: 'Route C', pct: 112 }] },
+                    W3: { efficiency: 2400, jobs: 17, revenue: 20900, routes: [{ name: 'Route A', pct: 62 }, { name: 'Route B', pct: 59 }, { name: 'Route C', pct: 119 }] }
+                },
+                'Branch C': {
+                    W1: { efficiency: 2200, jobs: 19, revenue: 18700, routes: [{ name: 'Route A', pct: 95 }, { name: 'Route B', pct: 61 }, { name: 'Route C', pct: 118 }] },
+                    W2: { efficiency: 2350, jobs: 21, revenue: 21600, routes: [{ name: 'Route A', pct: 99 }, { name: 'Route B', pct: 44 }, { name: 'Route C', pct: 84 }] },
+                    W3: { efficiency: 2300, jobs: 17, revenue: 19200, routes: [{ name: 'Route A', pct: 82 }, { name: 'Route B', pct: 70 }, { name: 'Route C', pct: 112 }] }
+                }
+            };
+
+            const branchSelect = document.getElementById('demoBranch');
+            const weekSelect = document.getElementById('demoWeek');
+            const kpiContainer = document.getElementById('demoKpis');
+            const routesContainer = document.getElementById('demoRoutes');
+            if (!branchSelect || !weekSelect || !kpiContainer || !routesContainer) return;
+
+            function barColor(pct) {
+                if (pct >= 100) return '#4caf50';
+                if (pct >= 50) return '#ff9800';
+                return '#e53935';
+            }
+
+            function render() {
+                const data = demoData[branchSelect.value][weekSelect.value];
+
+                kpiContainer.innerHTML = `
+                    <div class="kpi-card">
+                        <h4>Efficiency (Sample)</h4>
+                        <div class="kpi-value">$${data.efficiency.toLocaleString()}</div>
+                    </div>
+                    <div class="kpi-card">
+                        <h4>Revenue (Sample)</h4>
+                        <div class="kpi-value">$${data.revenue.toLocaleString()}</div>
+                    </div>
+                    <div class="kpi-card">
+                        <h4>Jobs (Sample)</h4>
+                        <div class="kpi-value">${data.jobs}</div>
+                    </div>
+                `;
+
+                routesContainer.innerHTML = data.routes.map(route => `
+                    <div>
+                        <div style="display:flex; justify-content:space-between; font-size:1.3rem; margin-bottom:0.4rem;">
+                            <span style="font-weight:600; color:var(--text);">${route.name}</span>
+                            <span style="color:var(--muted);">${route.pct}% of plan</span>
+                        </div>
+                        <div class="progress-bar" style="background-color:var(--bg-2);">
+                            <div class="progress" style="width:${Math.min(route.pct, 130) / 130 * 100}%; background-color:${barColor(route.pct)};"></div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            branchSelect.addEventListener('change', render);
+            weekSelect.addEventListener('change', render);
+            render();
+        }
+    </script>
+</body>
+</html>
