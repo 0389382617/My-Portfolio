@@ -262,20 +262,18 @@ In conclusion, the application of <strong>XGBoost</strong> helps to:
                 cover: "../assets/image/covers/cover-gls.jpg",
                 subtitle: "One dashboard replaced a weekly PowerPoint routine for the International department: weekly, monthly and year-to-date sales by branch, route, salesman and agent, refreshed from a single export.",
                 tags: ["Python", "Google Sheets API", "Google Colab", "HTML/CSS/JS"],
-                imageCaption: "Weekly report view. Figures are blurred for confidentiality.",
+                imageCaption: "Weekly report view.",
                 highlights: [["~1 day → ~2 h", "Time to produce the weekly report, before and after."], ["20+", "Report tables, all built from shared metric definitions."], ["~2 weeks", "From first export to delivery, 24/07 to 05/08/2026."], ["Accepted", "Reviewed and formally accepted by the department."]],
                 conclusionTitle: "Strengths and limitations",
                 
                 title: 'Weekly sales dashboard for the International department',
                 image: '../project image 3/dashboard-weekly-view.png',
-                confidentialImages: true,
                 description: `
                     <div class="executive-summary">
                         <h3 style="color: var(--accent); margin-bottom: 1.5rem; font-size: 2.2rem; font-family: var(--font-display);"><i class="fas fa-gauge-high" style="margin-right: 1rem;"></i> Executive Summary</h3>
                         <p style="font-size: 1.6rem; line-height: 1.8; color: var(--muted); margin-bottom: 1.5rem;">Built and delivered a standalone reporting dashboard for the International department at <strong>Global Logistics Service Co., Ltd (GLS)</strong>, covering weekly, monthly, and Year-to-Date (YTD) sales performance across branches, trade routes, salemen, and agents. Acted as the <strong>Data Analyst</strong> on the project: cleaning, metrics, automation and the dashboard itself.</p>
                         <p style="font-size: 1.6rem; line-height: 1.8; color: var(--muted); margin-bottom: 0;"><strong>Timeframe:</strong> 24/07/2026 – 05/08/2026 (~2 weeks, end-to-end) &nbsp;|&nbsp; <strong>Tools used:</strong> Google Sheets, Google Colab, Python (automation, Google API), HTML/CSS/JS (standalone dashboard)</p>
                     </div>
-                    <p style="font-size: 1.4rem; color: var(--muted); font-style: italic;">Note: the screenshots below are from the real, delivered dashboard. All figures, names, and other business-sensitive details have been blurred for confidentiality — only the interface and structure are shown.</p>
                 `,
                 databaseSectionTitle: 'Data collection and cleaning',
                 analysisSectionTitle: 'Dashboard architecture and build',
@@ -380,7 +378,7 @@ Every data refresh follows the same checklist before being handed off:
 </ul>
 
 <strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 2rem;"><i class="fas fa-hand-pointer" style="margin-right: 0.8rem;"></i>Try It Yourself — Interactive Demo</strong><br>
-<p style="margin-bottom: 1rem;">Since the real dashboard's figures are blurred above for confidentiality, here's a small working recreation of its filtering logic — built with the same vanilla-JS approach, using <strong>entirely fictional sample data</strong> (not GLS's real numbers) so you can see the interaction itself. Pick a branch and a week:</p>
+<p style="margin-bottom: 1rem;">Here is a small working recreation of its filtering logic, built the same way with plain JavaScript and <strong>sample data</strong> so you can try the interaction. Pick a branch and a week:</p>
 <div id="gls-demo" class="panel" style="background:var(--card); border:0.15rem solid var(--line); border-radius:1.6rem; padding:2rem;">
     <div style="display:flex; flex-wrap:wrap; gap:1.5rem; margin-bottom:1.5rem;">
         <div>
@@ -412,19 +410,19 @@ Every data refresh follows the same checklist before being handed off:
 <strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 2rem;"><i class="fas fa-calendar-week" style="margin-right: 0.8rem;"></i>Weekly Report View</strong><br>
 Users pick a week and branch from the filter bar; KPI cards and every table below refresh instantly. Branch performance (green header) and route efficiency vs. plan (blue header) sit side by side, with team/region targets (orange header) further down.`,
                 analysisImage: `../project image 3/dashboard-weekly-view.png`,
-                analysisText2: `<p class="table-caption" style="margin-top: -1rem;">Weekly report view — figures blurred for confidentiality.</p>
+                analysisText2: `<p class="table-caption" style="margin-top: -1rem;">Weekly report view.</p>
 <strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 1rem;"><i class="fas fa-calendar-days" style="margin-right: 0.8rem;"></i>Monthly Report View</strong><br>
 Same structure as the Weekly tab, with an added comparison against the previous month and against the same month last year — useful for spotting seasonal shifts.`,
                 analysisImage2: `../project image 3/dashboard-monthly-view.png`,
-                analysisText3: `<p class="table-caption" style="margin-top: -1rem;">Monthly report view — figures blurred for confidentiality.</p>
+                analysisText3: `<p class="table-caption" style="margin-top: -1rem;">Monthly report view.</p>
 <strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 1rem;"><i class="fas fa-chart-simple" style="margin-right: 0.8rem;"></i>YTD Summary Navigator</strong><br>
-The Year-to-Date tab organizes 7 cumulative charts (efficiency by saleman, revenue by branch, margin trends, and more) behind an expandable card grid, keeping the page light until a specific chart is opened.`,
+The Year-to-Date tab accumulates the year month by month: efficiency, revenue and margin by branch, file counts, GFS and LSIP totals, and the commodity mix per branch.`,
                 analysisImage3: `../project image 3/dashboard-ytd-view.png`,
-                analysisText4: `<p class="table-caption" style="margin-top: -1rem;">YTD summary tab — chart contents open on demand.</p>
+                analysisText4: `<p class="table-caption" style="margin-top: -1rem;">YTD summary tab.</p>
 <strong style="font-size: 2.0rem; color: var(--accent); display: inline-block; margin-bottom: 1rem; margin-top: 1.5rem;"><i class="fas fa-lightbulb" style="margin-right: 0.8rem;"></i>What the Dashboard Enables</strong><br>
 Beyond just displaying numbers, the dashboard was designed to support real decision-making for the International team — continuous performance tracking, customer trend visibility, and target tracking per saleman, detailed further below.`,
                 modelingTitle: `Insights and analytical approach`,
-                modelingText: `<p>The value of this project wasn't just building tables — it was structuring the data so that patterns which were invisible in a static monthly PowerPoint became visible every week. A few examples of the analytical lenses the dashboard applies (illustrative, figures blurred):</p>
+                modelingText: `<p>The value of this project wasn't just building tables — it was structuring the data so that patterns which were invisible in a static monthly PowerPoint became visible every week. A few examples of the analytical lenses the dashboard applies (illustrative):</p>
 <ul>
     <li><strong>Branch × route cross-analysis:</strong> a branch hitting its overall revenue plan can still be masking a weak trade route underneath it — table B (Efficiency by Route) is built specifically so a branch total is never taken at face value; it's cross-checked against its route mix.</li>
     <li><strong>Target-attainment gap analysis:</strong> by placing "actual vs. plan," "vs. last period," and "vs. same period last year" side by side, it becomes possible to tell apart three very different situations that look identical from a single revenue number alone: a genuine slowdown, normal seasonality, or a temporary dip against an unusually strong prior period.</li>
